@@ -4,16 +4,16 @@
     box-sizing: border-box;
 }
 body{
-    background-color: grey;
+    background-color:white;
 }
 nav{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    background-color: blueviolet;
+    background-color: #cbd5f0;
     padding: 10px;
     font-size: 20px;
-    color: white;
+    color: black;
     font-style: italic;
 }
 .container{
@@ -27,7 +27,7 @@ nav{
     border-radius: 20px;
     width: 800px;
     height: 500px;
-    background-color: grey;
+    background-color: white;
 }
 .block h1{
 display: flex;
@@ -39,8 +39,8 @@ margin: 10px;
 button{
     font-size:30px;
     border-radius: 5px;
-    color: white;
-    background-color:grey;
+    color: black;
+    background-color:#cbd5f0;
     border: none;
 }
 .icon{
@@ -83,24 +83,32 @@ color:black;
     font-size: 25px;
     margin-left: 330px;
     margin-top: 80px;
-    background-color: blueviolet;
+    background-color: #cbd5f0;
     border-radius: 15px;
+    color: black;
     width: 120px;
     height: 60px;
 }
 .bt1{
-    background-color: blueviolet;
+    background-color:#cbd5f0;
     font-size: 25px;
     width: 120px;
+    color: black;
     height: 60px;
     border-radius: 15px;
     margin-left: 120px;
 }
 .bt1:hover{
-    background-color: black;
-    color: white;
+    background-color:black ;
+    color: #cbd5f0;
 }
 .bt2:hover{
     background-color: black;
-    color: white;
+    color: #cbd5f0;
+}
+.bt2 a{
+    text-decoration: none;
+}
+.bt1 a{
+    text-decoration: none;
 }

@@ -55,7 +55,7 @@ input{
     border: solid black 2px; 
 }
 .i3{
-    margin-top: 40px;
+    margin-top: 10%;
 }
 .div{
     display: flex;
@@ -71,9 +71,12 @@ input{
     border: none;
     color: white;
     background-color:black;
+    text-decoration: none;
 }
-.btn:hover{
+/* .btn:hover{
     color:black;
     background-color:blueviolet;
+} */
+.btn a{
+    text-decoration: none;
 }
-
