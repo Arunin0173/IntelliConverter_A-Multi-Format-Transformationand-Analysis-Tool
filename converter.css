@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: grey;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: blueviolet;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    font-style: italic;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+
+}
+.block{
+    border-radius: 20px;
+    width: 800px;
+    height: 500px;
+    background-color: grey;
+}
+.block h1{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 10px;
+margin: 10px;
+}
+button{
+    font-size:30px;
+    border-radius: 5px;
+    color: white;
+    background-color:grey;
+    border: none;
+}
+.icon{
+    font-weight: 500px;
+    color: black;
+}
+.divv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.div1{
+    margin-left: 15%;
+    margin-top: 50px;
+}
+.div2{
+    margin-right: 15%;
+    margin-top: 50px;
+}
+.div3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+}
+textarea{
+    width: 50%;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    color: black;
+    border: 5px solid blueviolet;
+    margin-top: 60px;
+}
+button :hover{
+color:black;
+}
+.bt2{
+    font-size: 25px;
+    margin-left: 330px;
+    margin-top: 80px;
+    background-color: blueviolet;
+    border-radius: 15px;
+    width: 120px;
+    height: 60px;
+}
+.bt1{
+    background-color: blueviolet;
+    font-size: 25px;
+    width: 120px;
+    height: 60px;
+    border-radius: 15px;
+    margin-left: 120px;
+}
+.bt1:hover{
+    background-color: black;
+    color: white;
+}
+.bt2:hover{
+    background-color: black;
+    color: white;
+}
