@@ -17,12 +17,13 @@
         <div class="form">
             <p>All types of Text to PDF Converter</p>
             <form action="/action_page.php">
-                <input class="i1" type="file" id="myfile" name="filename">
-                <input class="i2" type="submit">
+               <textarea id="textinput" placeholder="ENTER YOUR TEXT FOR THE PDF" rows="10" cols="50"></textarea>
             </form>
-            <button class="down" onclick="gentratepdf">download the PDF</button>
+            <button class="down" id="generateButton" onclick="gentratepdf">download the PDF</button>
             <!-- <button class="btn" onclick="handlClick()">Login</button> -->
         </div>
             </div>
+
+            <script src="./script.js"></script>
 </body>
 </html>

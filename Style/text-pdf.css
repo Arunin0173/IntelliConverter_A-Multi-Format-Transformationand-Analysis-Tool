@@ -22,6 +22,21 @@ nav{
     margin: 30px;
 }
 
+#textinput{
+    width: 450px;
+    font-size: large;
+    height: 150px;
+    border-radius: 10px;
+}
+
+#textinput::placeholder{
+    font-size: xx-large;
+    font-family: monospace;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
 .form{
     display: flex;
     justify-content: center;
@@ -29,11 +44,12 @@ nav{
     flex-direction: column;
     background-color:gray;
     width:500px;
-    height: 400px;
+    height: 450px;
     font-size: 25px;
     padding: 10px;
     border-radius: 15px;
 }
+
 p{
     padding: 10px;
     margin: 20px;
