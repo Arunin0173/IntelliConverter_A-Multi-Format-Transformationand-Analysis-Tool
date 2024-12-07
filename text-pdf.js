@@ -8,7 +8,7 @@ document.getElementById("generateButton").addEventListener("click", function() {
       }
 
       // Send POST request to the backend
-      fetch('/generate', {
+      fetch('http://localhost:8080/generate', {
         method: 'POST',
         headers: {
           'Content-Type': 'text/plain', // Set the content type to plain text
