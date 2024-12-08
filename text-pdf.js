@@ -7,33 +7,32 @@ document.getElementById("generateButton").addEventListener("click", function() {
         return;
       }
 
-      // Send POST request to the backend
       fetch('http://localhost:8080/generate', {
         method: 'POST',
         headers: {
-          'Content-Type': 'text/plain', // Set the content type to plain text
+          'Content-Type': 'text/plain', 
         },
-        body: text, // Send the input text
+        body: text, 
       })
         .then((response) => {
           if (!response.ok) {
             throw new Error("Failed to generate PDF.");
         }
-        return response.blob(); // Get the PDF as a Blob
+        return response.blob(); 
       })
       .then((blob) => {
-        // Create a temporary URL for the Blob
+        
         const url = window.URL.createObjectURL(blob);
 
-        // Create an <a> element to trigger the download
+        
         const a = document.createElement("a");
         a.href = url;
-        a.download = "generated.pdf"; // Set the file name for the download
+        a.download = "generated.pdf"; 
         document.body.appendChild(a);
-        a.click(); // Programmatically click the link to download
-        a.remove(); // Remove the <a> element after triggering the download
+        a.click(); 
+        a.remove(); 
 
-        // Optionally, you can display a success message    or perform other actions    
+         
 
 }) 
 
