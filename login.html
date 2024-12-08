@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/login.css">
+</head>
+
+<body>
+
+    
+    <div class="div">
+        <div class="form">
+           
+            <img src="./Image/applogo.png" alt="img" />
+
+           
+            <input class="i1" type="email" id="email" name="email" placeholder=" Enter your email ">
+          
+
+
+
+            <input class="i3" type="password" id="password" name="password" placeholder=" Enter the password ">
+
+
+            <button class="btn" onclick="login()">Sign in</button>
+            <a href="./register.html">If you don't have any account?click here</a>
+            <p id="errorMessage" class="error"></p>
+        </div>
+    </div>
+
+
+    <script>
+
+        function login() {
+            var email = document.getElementById("email").value;
+            var password = document.getElementById("password").value;
+            var errorMessage = document.getElementById("errorMessage");
+            if (email == "1235@gmail.com" && password == "123456") {
+                window.location.href = "./index.html";
+            }
+            else {
+                errorMessage.innerHTML = "invaild username and password";
+            }
+        }
+
+
+
+    </script>
+
+
+
+
+</body>
+
+</html>
