@@ -73,17 +73,24 @@ body{
     justify-content: center;
     align-items: center;
     display: flex;
+    
 }
 .box2 i{
     font-size: 150px;
+    color: black;
 }
 .box3 i{
     font-size: 150px;
+    color: black;
+    
+   
 }
+
 .box1 a{
     font-size: 60px;
     text-decoration: none;
     color: black;
+
 }
 .box1:hover{
     background-color: black;
