@@ -9,18 +9,6 @@
         integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
-    <script>
-        function openMenu() {
-        const nav = document.getElementById("menubar");
-        if (nav.classList.contains("hidden")) {
-            nav.classList.remove("hidden");
-            nav.classList.add("visible");
-        } else {
-            nav.classList.remove("visible");
-            nav.classList.add("hidden");
-        }
-    }
-        </script>
 </head>
 
 <body>
@@ -48,18 +36,18 @@
 
         <div class="container2">
             <div class="box1">
-                <button><i class="fa-solid fa-file-pdf"></i></button>
+                <button id="generateButton" ><i class="fa-solid fa-file-pdf"></i></button>
 
             </div>
             <div class="box2">
-                <button><i class="fa-regular fa-image"></i></button>
+                <button onclick="generateImage()"><i class="fa-regular fa-image"></i></button>
 
             </div>
         </div>
 
         <div class="container3">
             <form>
-                <textarea class="textarea" id="textinput" name="textinput" placeholder="Enter on your text" rows="10"
+                <textarea class="textarea" id="textInput" name="textinput" placeholder="Enter on your text" rows="10"
                     cols="50"></textarea>
             </form>
 
@@ -67,6 +55,10 @@
         </div>
 
     </div>
+
+    <script src="./JS/textto.js"></script>
+    
+
 
 </body>
 
