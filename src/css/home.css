@@ -1,0 +1,48 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container1 .imglogo{
+    width: 150px;
+    height: 100px;
+}
+
+.container3{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.container3 .input1{
+    width: 400px;
+    padding: 7px;
+    background-color: #D1E5F4;
+    color: #9ABDDC;
+    text-align: center;
+
+}
+.container3 .input2{
+    width: 400px;
+    padding: 7px;
+    background-color:#FBE6BF;
+    color:#FF9F01 ;
+    text-align: center;
+}
+
+.container3 .input3{
+    width: 400px;
+    padding: 7px;
+    background-color:#C9FEC0 ;
+    color:#78E07A ;
+    text-align: center;
+}
+
+.menuicon{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    
+
+}
